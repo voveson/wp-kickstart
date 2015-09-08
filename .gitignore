@@ -1,0 +1,8 @@
+/bower_components
+/node_modules
+/wp-admin
+/wp-content
+/wp-includes
+/.idea
+/*.php
+/readme.html
