@@ -96,7 +96,7 @@ gulp.task('templates', function() {
 
 // Templates
 gulp.task('theme-files', function() {
-  return gulp.src('src/theme_files/*.php')
+  return gulp.src('src/theme_files/*.*')
       .pipe(gulp.dest(config.themeDir))
       .pipe(notify({ message: 'Successfully processed Theme Files', onLast: true }));
 });

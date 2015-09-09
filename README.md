@@ -3,7 +3,7 @@ This repo is built to facilitate the setup of new WordPress theme projects.  It 
 
 ###Installation
 In order to use this repo, execute the following steps:
-**NOTE:** before starting, make sure you have both `npm` and `bower` installed globally.
+(**NOTE:** before starting, make sure you have both `npm` and `bower` installed globally.)
 
  1. Start with a fresh WordPress installation.  You can download WordPress [here](https://wordpress.org/download/).
  2. Extract all of the core WordPress files to your project root.
