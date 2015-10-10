@@ -3,5 +3,5 @@
  */
 
 $(function(){
-   // Document ready function
+   // Document ready function - place any startup code here
 });
