@@ -1,5 +1,5 @@
 ## WP Kickstart
-This repo is built to facilitate the setup of new WordPress theme projects.  It uses [gulp](http://gulpjs.com/) for separating project files from WordPress core files, as well as compiling & minifying less stylesheets and JavaScript files.  It also uses [bower](http://bower.io) for front-end package management. Finally, [materialize.css](http://materializecss.com/) is included as a useful CSS framework.
+This repo is built to facilitate the setup of new WordPress theme projects.  It uses [gulp](http://gulpjs.com/) for separating project files from WordPress core files, as well as compiling & minifying less stylesheets and JavaScript files.  It also uses [bower](http://bower.io) for front-end package management. Finally, [materialize.css](http://materializecss.com/) is included as a useful front-end framework.
 
 ###Installation
 In order to use this repo, execute the following steps:

@@ -1,3 +1,7 @@
 /**
- * Created by Vince on 9/7/2015.
+ * Main JavaScript file for the project theme
  */
+
+$(function(){
+   // Document ready function
+});
