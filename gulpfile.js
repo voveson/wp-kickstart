@@ -73,20 +73,6 @@ gulp.task('materialize-fonts', function() {
     .pipe(notify({ message: 'Successfully processed Materialize Fonts', onLast: true}));
 });
 
-// Materialize CSS
-gulp.task('materialize', function() {
-  return gulp.src('bower_components/materialize/dist/css/materialize.css')
-    .pipe(gulp.dest(config.assetDir + 'css'))
-    .pipe(notify({ message: 'Successfully processed Materialize.css'}));
-});
-
-/*
-gulp.task('animate', function() {
-  return gulp.src('css_libraries/animate_css/animate.min.css')
-    .pipe(gulp.dest(config.assetDir + 'css'))
-    .pipe(notify({ message: 'Successfully processed Animate.css'}));
-});*/
-
 // Templates
 gulp.task('templates', function() {
 	return gulp.src('src/page_templates/*.php')
@@ -159,7 +145,7 @@ gulp.task('rimraf', function() {
 
 // Default task
 gulp.task('default', ['rimraf'], function() {
-    gulp.start('css', 'materialize-fonts', 'materialize', 'js-library', 'js', 'images', 'webfonts', 'templates', 'theme-files');
+    gulp.start('css', 'materialize-fonts', 'js-library', 'js', 'images', 'webfonts', 'templates', 'theme-files');
 });
 
 // Watch

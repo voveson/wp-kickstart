@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- Load theme stylesheets -->
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/materialize.css">
+
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/styles.css">
 
     <title>
